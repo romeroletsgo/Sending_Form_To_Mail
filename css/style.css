@@ -1,0 +1,59 @@
+#form {}
+
+#formName {}
+
+#formEmail {}
+
+#formRightHanded {}
+
+#formLeftHanded {}
+
+#formMessage {}
+
+#formImage {}
+
+#formAgreement {}
+
+.wrapper {}
+
+.form {}
+
+.form__body {}
+
+.form__title {}
+
+.form__item {}
+
+.form__label {}
+
+.form__input {}
+
+.form__lable {}
+
+.options {}
+
+.options__item {}
+
+.options__input {}
+
+.options__label {}
+
+.select {}
+
+.file {}
+
+.file__item {}
+
+.file__input {}
+
+.file__button {}
+
+.file__preview {}
+
+.checkbox {}
+
+.checkbox__input {}
+
+.checkbox__label {}
+
+.form__button {}
