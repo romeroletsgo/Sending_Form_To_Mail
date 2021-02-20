@@ -206,8 +206,48 @@ textarea.form__input {
 
 .checkbox {}
 
-.checkbox__input {}
+.checkbox__input {
+    display: none;
+}
 
-.checkbox__label {}
+.checkbox__input:checked+.checkbox__label::after {
+    transform: scale(1);
+}
+
+.checkbox__label {
+    font-size: 16px;
+    line-height: 140%;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox__label a {
+    color: #00a841;
+}
+
+.checkbox__label::before {
+    content: "";
+    align-self: flex-start;
+    flex: 0 0 24px;
+    height: 24px;
+    background-color: rgb(143, 143, 143);
+    border-radius: 4px;
+    margin: 0 10px 0 0;
+}
+
+.checkbox__label::after {
+    transition: transform 0.3s ease 0s;
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-color: rgb(10, 202, 36);
+    border-radius: 4px;
+    transform: scale(0);
+}
 
 .form__button {}
